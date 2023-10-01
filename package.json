@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.7.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "name": "repodb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelvinlongchun/repodb.git"
+  },
+  "description": "Make your Github private repository become a JSON database",
+  "version": "1.0.0",
+  "keywords": [
+    "github",
+    "database",
+    "CRUD",
+    "JSON"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup ./src/index.ts --format cjs,esm --dts"
+  },
+  "author": "Kelvin Wong",
+  "license": "MIT"
+}
