@@ -90,7 +90,7 @@ await students.update();
 
 ## Delete Data
 
-If you want to delete the data in the repository, use function `repodb.data[dataName].delete()`. It will deleted the JSON file in the repository. Please note that it is an async/await function.
+If you want to delete the data in the repository, use function `repodb.data[dataName].delete()`. It will delete the JSON file in the repository. Please note that it is an async/await function.
 
 ```ts
 await students.delete();
